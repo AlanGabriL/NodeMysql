@@ -1,5 +1,5 @@
 const Product = require('../models/productModel');
-
+//pega o modelo, e aqui são chamadas as funções, onde faz o Crud com o banco
 module.exports = {
   //achar tudo
   async all(request, response) {
